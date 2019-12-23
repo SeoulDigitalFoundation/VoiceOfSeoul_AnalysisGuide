@@ -277,7 +277,7 @@ result_df
 
 # %%
 #학습 데이터 비전 비율 vs 테스트 데이터 비전 비율
-ig, axes = plt.subplots(ncols=2)
+fig, axes = plt.subplots(ncols=2)
 fig.set_size_inches(12,5)
 
 #학습 데이터 플롯
