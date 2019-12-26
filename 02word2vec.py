@@ -276,7 +276,7 @@ result_df
 # ### 분류 결과 도표 시각화 ###
 
 # %%
-#학습 데이터 비전 비율 vs 테스트 데이터 비전 비율
+#학습 데이터 민원 분류 비율 vs 테스트 데이터 민원 분류 비율 #
 fig, axes = plt.subplots(ncols=2)
 fig.set_size_inches(12,5)
 
