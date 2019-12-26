@@ -197,11 +197,6 @@ test_df['contents']
 
 
 # %%
-# contents 컬럼 중복 행 삭제
-test_df = test_df.drop_duplicates('contents')
-
-
-# %%
 # '제안등록일자' 컬럼 시계열 데이터 타입으로 변경
 test_df['제안등록일자'] = pd.to_datetime(test_df['제안등록일자'])
 test_df['제안등록일자']
