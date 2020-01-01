@@ -4,7 +4,7 @@
 from IPython import get_ipython
 
 # %% [markdown]
-# # 00 라이브러리 로딩 #
+# ## 00 라이브러리 로딩
 
 # %%
 import pandas as pd
@@ -42,10 +42,8 @@ with open('train_test_df.pickle', 'rb') as pic:
     train_df, test_df = pickle.load(pic)
 
 # %% [markdown]
-# # 01 기술통계량 #
-# %% [markdown]
-# ## 민원 건당 단어 수 ##
-# ### Word2vec 모델 파라메터 값 설정에 참고될 통계량 ###
+# # 민원 건당 단어 수 #
+# ## Word2vec 모델 파라메터 값 설정에 참고될 통계량 ##
 # %% [markdown]
 # ### 학습 데이터 ###
 
@@ -59,8 +57,8 @@ train_df['tokens'].str.len().describe()
 test_df['tokens'].str.len().describe()
 
 # %% [markdown]
-# # 02 Word2vec 모델링 #
-# ### 코드 참고 : https://programmers.co.kr/learn/courses/21 ###
+# # 01 Word2vec 모델링 #
+# ## 코드 참고 : https://programmers.co.kr/learn/courses/21
 # %% [markdown]
 # ## Word2vec 파라미터 값 지정 ##
 
