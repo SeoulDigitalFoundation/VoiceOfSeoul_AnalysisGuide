@@ -10,13 +10,6 @@ import pandas as pd
 import numpy as np
 import pickle
 
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-plt.rc('font', family='Malgun Gothic')
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
