@@ -173,7 +173,7 @@ tf_vocab_environ_table.columns = ['단어','빈도수']
 tf_vocab_environ_table
 
 # %% [markdown]
-# ### 단어-빈도수 테이블 엑셀로 저장
+# ### 단어-빈도수 테이블을 엑셀로 저장
 
 # %%
 tf_vocab_environ_table.to_excel('./stats/환경_단어_빈도수.xlsx',index=None)
