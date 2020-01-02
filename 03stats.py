@@ -73,7 +73,7 @@ pd.concat([category_year_size,category_year_percent],axis=1)
 
 
 # %%
-# 연도별 민원 분류 개수/비율 테이블 엑셀로 저장
+# 연도별 민원 분류 개수/비율 테이블을 엑셀로 저장
 pd.concat([category_year_size,category_year_percent],axis=1).to_excel('./stats/연도별 민원분류 통계.xlsx',index=None)
 
 # %% [markdown]
@@ -128,7 +128,7 @@ tf_vocab_table.columns = ['단어','빈도수']
 tf_vocab_table
 
 # %% [markdown]
-# ### 단어-빈도수 테이블 엑셀로 저장
+# ### 단어-빈도수 테이블을 엑셀로 저장
 
 # %%
 tf_vocab_table.to_excel('./stats/전체_단어_빈도수.xlsx',index=None)
@@ -216,7 +216,7 @@ tf_vocab_traffic_table.columns = ['단어','빈도수']
 tf_vocab_traffic_table
 
 # %% [markdown]
-# ### 단어-빈도수 테이블 엑셀로 저장
+# ### 단어-빈도수 테이블을 엑셀로 저장
 
 # %%
 tf_vocab_traffic_table.to_excel('./stats/교통_단어_빈도수.xlsx',index=None)
