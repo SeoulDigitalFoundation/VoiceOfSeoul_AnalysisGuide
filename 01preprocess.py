@@ -7,6 +7,7 @@
 import pandas as pd
 import numpy as np
 import regex
+import re
 import gensim
 from PyKomoran import *
 komoran = Komoran("STABLE")
