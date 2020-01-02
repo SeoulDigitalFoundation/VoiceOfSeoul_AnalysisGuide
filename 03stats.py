@@ -44,7 +44,7 @@ category_table
 category_table.to_excel('./stats/민원분류 예측결과 개수.xlsx',index=None)
 
 # %% [markdown]
-# ## 연도별 민원 비율 트랜드 분석
+# ## 연도별 민원 트랜드 분석
 # %% [markdown]
 # ### '연도' 컬럼 생성
 
