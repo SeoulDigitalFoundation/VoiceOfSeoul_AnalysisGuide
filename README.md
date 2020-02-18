@@ -27,4 +27,4 @@
 
 
 ## 3. 관련 자료
-서울디지털재단 관련 문서 :  http://bit.ly/2wqVcxE
+서울디지털재단 서적 :  http://bit.ly/2wqVcxE (isbn: 979-11-966015-8-4)
