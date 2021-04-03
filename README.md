@@ -27,4 +27,4 @@
 
 
 ## 3. 서적 다운로드(서울디지털재단)
-도시데이터 표준분석 모델(민원분석편) :  http://bit.ly/2wqVcxE (isbn: 979-11-966015-8-4)
+도시데이터 표준분석 모델(민원분석편) :  https://sdf.seoul.kr/comm/getFile?srvcId=BBSTY1&upperNo=1241&fileTy=ATTACH&fileNo=1&board=7 (isbn: 979-11-966015-8-4)
